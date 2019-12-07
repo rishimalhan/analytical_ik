@@ -61,7 +61,7 @@ int main(int argc, char** argv)
 	std::cout<< "Often, an additional tool_link will be provided to position the grasp/tool frame, giving eelink=7." << std::endl;
 	std::cout<< std::endl;
 
-	std::cout<< "Enter base link (base_link) index" << std::endl;
+	std::cout<< "Enter base link (base/base_link) index" << std::endl;
 	std::cin >> base_link;
 	std::cout<< "Base link index Entered is: " << base_link << std::endl;
 	std::cout<< std::endl;
@@ -95,7 +95,9 @@ int main(int argc, char** argv)
 		ret_val = system(ik_cmd.c_str());
 	}
 
+	std::cout<< "########################################################################" << std::endl;
+	std::cout<< "SUCCESSFULLY WRITTEN IK SOULUTION FILES" << std::endl;
+	std::cout<< "########################################################################" << std::endl;
+
 	return 0;
 }
-
-// /home/rmalhan/Work/USC/Repositories/Inverse_Kinematics/analytical_IK/data/urdf/irb2600/abb_irb_2600.urdf

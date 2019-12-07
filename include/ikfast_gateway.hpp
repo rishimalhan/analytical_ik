@@ -5,8 +5,7 @@
 #include <Eigen/Eigen>
 
 // include <robot_name.cpp>
-#include <irb2600_ikfast.cpp>
-// #include <irb2600.cpp>
+#include <irb2600.cpp>
 
 using namespace ikfast;
 
