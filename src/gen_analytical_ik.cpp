@@ -1,7 +1,13 @@
+/* AUTHORED BY: Rishi Malhan
+Center for Advanced Manufacturing
+University of Southern California, LA, USA.
+EMAIL: rmalhan@usc.edu */
+
+
 #include <iostream>
 #include <urdf_to_collada.hpp>
 #include <boost/filesystem.hpp>
-// #include <filesystem>
+
 
 int main(int argc, char** argv)
 {

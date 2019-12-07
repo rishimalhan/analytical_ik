@@ -1,3 +1,9 @@
+/* AUTHORED BY: Rishi Malhan
+Center for Advanced Manufacturing
+University of Southern California, LA, USA.
+EMAIL: rmalhan@usc.edu */
+
+
 #ifndef IKFAST_GATEWAY
 #define IKFAST_GATEWAY
 #define IKFAST_NO_MAIN
@@ -6,6 +12,8 @@
 
 // include <robot_name.cpp>
 #include <irb2600.cpp>
+// #include <gp8.cpp>
+// #include <iiwa7.cpp>
 
 using namespace ikfast;
 

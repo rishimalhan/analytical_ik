@@ -1,0 +1,1166 @@
+<COLLADA xmlns="http://www.collada.org/2008/03/COLLADASchema" version="1.5.0">
+	<asset>
+		<contributor>
+			<authoring_tool>URDF Collada Writer</authoring_tool>
+		</contributor>
+		<created>2019-12-07T00:03:16.000000</created>
+		<modified>2019-12-07T00:03:16.000000</modified>
+		<unit/>
+		<up_axis>Z_UP</up_axis>
+	</asset>
+	<library_visual_scenes id="vscenes">
+		<visual_scene id="vscene" name="URDF Visual Scene">
+			<node id="visual0" name="iiwa7" sid="visual0">
+				<node id="vkmodel0_node9" name="world" sid="node9">
+					<translate>0.0 0.0 0.0</translate>
+					<rotate>1.0 0.0 0.0 0.0</rotate>
+					<node id="vkmodel0_node0" name="iiwa_link_0" sid="node0">
+						<translate>-0.0 -0.0 -0.0</translate>
+						<rotate>1.0 0.0 0.0 0.0</rotate>
+						<translate>0.0 0.0 0.0</translate>
+						<rotate>1.0 0.0 0.0 0.0</rotate>
+						<rotate sid="node_world_iiwa_joint_axis0">0.0 0.0 0.0 0.0</rotate>
+						<translate>0.0 0.0 0.0</translate>
+						<rotate>1.0 0.0 0.0 0.0</rotate>
+						<instance_geometry url="#gkmodel0_iiwa_link_0_geom0">
+							<bind_material>
+								<technique_common>
+									<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_0_geom0_mat"/>
+								</technique_common>
+							</bind_material>
+						</instance_geometry>
+						<node id="vkmodel0_node1" name="iiwa_link_1" sid="node1">
+							<translate>-0.0 -0.0 -0.0</translate>
+							<rotate>1.0 0.0 0.0 0.0</rotate>
+							<translate>0.0 0.0 0.15</translate>
+							<rotate>1.0 0.0 0.0 0.0</rotate>
+							<rotate sid="node_iiwa7_1_joint_1_axis0">0.0 0.0 1.0 0.0</rotate>
+							<translate>0.0 0.0 0.0075</translate>
+							<rotate>1.0 0.0 0.0 0.0</rotate>
+							<instance_geometry url="#gkmodel0_iiwa_link_1_geom0">
+								<bind_material>
+									<technique_common>
+										<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_1_geom0_mat"/>
+									</technique_common>
+								</bind_material>
+							</instance_geometry>
+							<node id="vkmodel0_node2" name="iiwa_link_2" sid="node2">
+								<translate>-0.0 -0.0 -0.0075</translate>
+								<rotate>1.0 0.0 0.0 0.0</rotate>
+								<translate>0.0 0.0 0.19</translate>
+								<rotate>0.0 -0.70711 -0.70711 180.0</rotate>
+								<rotate sid="node_iiwa7_1_joint_2_axis0">0.0 0.0 1.0 0.0</rotate>
+								<translate>0.0 0.0 0.0</translate>
+								<rotate>1.0 0.0 0.0 0.0</rotate>
+								<instance_geometry url="#gkmodel0_iiwa_link_2_geom0">
+									<bind_material>
+										<technique_common>
+											<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_2_geom0_mat"/>
+										</technique_common>
+									</bind_material>
+								</instance_geometry>
+								<node id="vkmodel0_node3" name="iiwa_link_3" sid="node3">
+									<translate>-0.0 -0.0 -0.0</translate>
+									<rotate>1.0 0.0 0.0 0.0</rotate>
+									<translate>0.0 0.21 0.0</translate>
+									<rotate>0.0 -0.70711 -0.70711 180.0</rotate>
+									<rotate sid="node_iiwa7_1_joint_3_axis0">0.0 0.0 1.0 0.0</rotate>
+									<translate>0.0 0.0 -0.026</translate>
+									<rotate>1.0 0.0 0.0 0.0</rotate>
+									<instance_geometry url="#gkmodel0_iiwa_link_3_geom0">
+										<bind_material>
+											<technique_common>
+												<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_3_geom0_mat"/>
+											</technique_common>
+										</bind_material>
+									</instance_geometry>
+									<node id="vkmodel0_node4" name="iiwa_link_4" sid="node4">
+										<translate>-0.0 -0.0 0.026</translate>
+										<rotate>1.0 0.0 0.0 0.0</rotate>
+										<translate>0.0 0.0 0.19</translate>
+										<rotate>1.0 0.0 0.0 90.0</rotate>
+										<rotate sid="node_iiwa7_1_joint_4_axis0">0.0 0.0 1.0 0.0</rotate>
+										<translate>0.0 0.0 0.0</translate>
+										<rotate>1.0 0.0 0.0 0.0</rotate>
+										<instance_geometry url="#gkmodel0_iiwa_link_4_geom0">
+											<bind_material>
+												<technique_common>
+													<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_4_geom0_mat"/>
+												</technique_common>
+											</bind_material>
+										</instance_geometry>
+										<node id="vkmodel0_node5" name="iiwa_link_5" sid="node5">
+											<translate>-0.0 -0.0 -0.0</translate>
+											<rotate>1.0 0.0 0.0 0.0</rotate>
+											<translate>0.0 0.21 0.0</translate>
+											<rotate>-0.0 -0.70711 -0.70711 180.0</rotate>
+											<rotate sid="node_iiwa7_1_joint_5_axis0">0.0 0.0 1.0 0.0</rotate>
+											<translate>0.0 0.0 -0.026</translate>
+											<rotate>1.0 0.0 0.0 0.0</rotate>
+											<instance_geometry url="#gkmodel0_iiwa_link_5_geom0">
+												<bind_material>
+													<technique_common>
+														<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_5_geom0_mat"/>
+													</technique_common>
+												</bind_material>
+											</instance_geometry>
+											<node id="vkmodel0_node6" name="iiwa_link_6" sid="node6">
+												<translate>-0.0 -0.0 0.026</translate>
+												<rotate>1.0 0.0 0.0 0.0</rotate>
+												<translate>0.0 0.0607 0.19</translate>
+												<rotate>1.0 0.0 0.0 90.0</rotate>
+												<rotate sid="node_iiwa7_1_joint_6_axis0">0.0 0.0 1.0 0.0</rotate>
+												<translate>0.0 0.0 0.0</translate>
+												<rotate>1.0 0.0 0.0 0.0</rotate>
+												<instance_geometry url="#gkmodel0_iiwa_link_6_geom0">
+													<bind_material>
+														<technique_common>
+															<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_6_geom0_mat"/>
+														</technique_common>
+													</bind_material>
+												</instance_geometry>
+												<node id="vkmodel0_node7" name="iiwa_link_7" sid="node7">
+													<translate>-0.0 -0.0 -0.0</translate>
+													<rotate>1.0 0.0 0.0 0.0</rotate>
+													<translate>0.0 0.081 0.0607</translate>
+													<rotate>-0.0 -0.70711 -0.70711 180.0</rotate>
+													<rotate sid="node_iiwa7_1_joint_7_axis0">0.0 0.0 1.0 0.0</rotate>
+													<translate>0.0 0.0 -0.0005</translate>
+													<rotate>1.0 0.0 0.0 0.0</rotate>
+													<instance_geometry url="#gkmodel0_iiwa_link_7_geom0">
+														<bind_material>
+															<technique_common>
+																<instance_material symbol="mat0" target="#gkmodel0_iiwa_link_7_geom0_mat"/>
+															</technique_common>
+														</bind_material>
+													</instance_geometry>
+													<node id="vkmodel0_node8" name="iiwa_link_ee" sid="node8">
+														<translate>-0.0 -0.0 0.0005</translate>
+														<rotate>1.0 0.0 0.0 0.0</rotate>
+														<translate>0.0 0.0 0.045</translate>
+														<rotate>1.0 0.0 0.0 0.0</rotate>
+														<rotate sid="node_iiwa_joint_ee_axis0">0.0 0.0 0.0 0.0</rotate>
+														<translate>0.0 0.0 0.0</translate>
+														<rotate>1.0 0.0 0.0 0.0</rotate>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<library_geometries id="geometries">
+		<geometry id="gkmodel0_iiwa_link_0_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_0.stl"/>
+		<geometry id="gkmodel0_iiwa_link_1_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_1.stl"/>
+		<geometry id="gkmodel0_iiwa_link_2_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_2.stl"/>
+		<geometry id="gkmodel0_iiwa_link_3_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_3.stl"/>
+		<geometry id="gkmodel0_iiwa_link_4_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_4.stl"/>
+		<geometry id="gkmodel0_iiwa_link_5_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_5.stl"/>
+		<geometry id="gkmodel0_iiwa_link_6_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_6.stl"/>
+		<geometry id="gkmodel0_iiwa_link_7_geom0" name="package://iiwa_description/meshes/iiwa7/visual/link_7.stl"/>
+	</library_geometries>
+	<library_effects id="effects">
+		<effect id="gkmodel0_iiwa_link_0_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_0_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_1_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_1_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_2_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_2_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_3_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_3_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_4_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_4_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_5_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_5_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_6_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_6_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_7_geom0">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+		<effect id="gkmodel0_iiwa_link_7_geom0_eff">
+			<profile_COMMON>
+				<technique sid="">
+					<phong>
+						<ambient>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</ambient>
+						<diffuse>
+							<color>0.9647058844566345 0.4705882370471954 0.1568627506494522 1</color>
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_materials id="materials">
+		<material id="gkmodel0_iiwa_link_0_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_0_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_0_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_0_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_1_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_1_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_1_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_1_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_2_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_2_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_2_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_2_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_3_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_3_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_3_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_3_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_4_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_4_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_4_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_4_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_5_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_5_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_5_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_5_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_6_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_6_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_6_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_6_geom0"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_7_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_7_geom0_eff"/>
+		</material>
+		<material id="gkmodel0_iiwa_link_7_geom0_mat">
+			<instance_effect url="#gkmodel0_iiwa_link_7_geom0"/>
+		</material>
+	</library_materials>
+	<library_kinematics_models id="kmodels">
+		<kinematics_model id="kmodel0" name="iiwa7">
+			<technique_common>
+				<joint name="iiwa7_1_joint_1" sid="iiwa7_1_joint_1">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-170.0</min>
+							<max>170.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_2" sid="iiwa7_1_joint_2">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-120.0</min>
+							<max>120.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_3" sid="iiwa7_1_joint_3">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-170.0</min>
+							<max>170.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_4" sid="iiwa7_1_joint_4">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-120.0</min>
+							<max>120.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_5" sid="iiwa7_1_joint_5">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-170.0</min>
+							<max>170.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_6" sid="iiwa7_1_joint_6">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-120.0</min>
+							<max>120.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa7_1_joint_7" sid="iiwa7_1_joint_7">
+					<revolute sid="axis0">
+						<axis>0 0 1</axis>
+						<limits>
+							<min>-175.0</min>
+							<max>175.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="iiwa_joint_ee" sid="iiwa_joint_ee">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0.0</min>
+							<max>0.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<joint name="world_iiwa_joint" sid="world_iiwa_joint">
+					<revolute sid="axis0">
+						<axis>0 0 0</axis>
+						<limits>
+							<min>0.0</min>
+							<max>0.0</max>
+						</limits>
+					</revolute>
+				</joint>
+				<link sid="world" name="world">
+					<attachment_full joint="kmodel0/world_iiwa_joint">
+						<translate>0.0 0.0 0.0</translate>
+						<rotate>1.0 0.0 0.0 0.0</rotate>
+						<link sid="iiwa_link_0" name="iiwa_link_0">
+							<attachment_full joint="kmodel0/iiwa7_1_joint_1">
+								<translate>0.0 0.0 0.15</translate>
+								<rotate>1.0 0.0 0.0 0.0</rotate>
+								<link sid="iiwa_link_1" name="iiwa_link_1">
+									<attachment_full joint="kmodel0/iiwa7_1_joint_2">
+										<translate>0.0 0.0 0.19</translate>
+										<rotate>0.0 -0.70711 -0.70711 180.0</rotate>
+										<link sid="iiwa_link_2" name="iiwa_link_2">
+											<attachment_full joint="kmodel0/iiwa7_1_joint_3">
+												<translate>0.0 0.21 0.0</translate>
+												<rotate>0.0 -0.70711 -0.70711 180.0</rotate>
+												<link sid="iiwa_link_3" name="iiwa_link_3">
+													<attachment_full joint="kmodel0/iiwa7_1_joint_4">
+														<translate>0.0 0.0 0.19</translate>
+														<rotate>1.0 0.0 0.0 90.0</rotate>
+														<link sid="iiwa_link_4" name="iiwa_link_4">
+															<attachment_full joint="kmodel0/iiwa7_1_joint_5">
+																<translate>0.0 0.21 0.0</translate>
+																<rotate>-0.0 -0.70711 -0.70711 180.0</rotate>
+																<link sid="iiwa_link_5" name="iiwa_link_5">
+																	<attachment_full joint="kmodel0/iiwa7_1_joint_6">
+																		<translate>0.0 0.0607 0.19</translate>
+																		<rotate>1.0 0.0 0.0 90.0</rotate>
+																		<link sid="iiwa_link_6" name="iiwa_link_6">
+																			<attachment_full joint="kmodel0/iiwa7_1_joint_7">
+																				<translate>0.0 0.081 0.0607</translate>
+																				<rotate>-0.0 -0.70711 -0.70711 180.0</rotate>
+																				<link sid="iiwa_link_7" name="iiwa_link_7">
+																					<attachment_full joint="kmodel0/iiwa_joint_ee">
+																						<translate>0.0 0.0 0.045</translate>
+																						<rotate>1.0 0.0 0.0 0.0</rotate>
+																						<link sid="iiwa_link_ee" name="iiwa_link_ee"/>
+																					</attachment_full>
+																				</link>
+																			</attachment_full>
+																		</link>
+																	</attachment_full>
+																</link>
+															</attachment_full>
+														</link>
+													</attachment_full>
+												</link>
+											</attachment_full>
+										</link>
+									</attachment_full>
+								</link>
+							</attachment_full>
+						</link>
+					</attachment_full>
+				</link>
+			</technique_common>
+		</kinematics_model>
+	</library_kinematics_models>
+	<library_articulated_systems id="asystems">
+		<articulated_system id="robot0_motion">
+			<motion>
+				<instance_articulated_system url="#robot0_kinematics">
+					<newparam sid="robot0_motion_kmodel0_inst">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_motion_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value">
+						<SIDREF>robot0_kinematics/robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value</SIDREF>
+					</newparam>
+				</instance_articulated_system>
+				<technique_common>
+					<axis_info axis="robot0_kinematics/axis_info_inst0">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst1">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst2">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst3">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst4">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst5">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst6">
+						<speed>
+							<float>10.0</float>
+						</speed>
+						<acceleration>
+							<float>300.0</float>
+						</acceleration>
+					</axis_info>
+					<axis_info axis="robot0_kinematics/axis_info_inst7"/>
+					<axis_info axis="robot0_kinematics/axis_info_inst8"/>
+				</technique_common>
+			</motion>
+		</articulated_system>
+		<articulated_system id="robot0_kinematics">
+			<kinematics>
+				<instance_kinematics_model url="#kmodel0" sid="kmodel0_inst">
+					<newparam sid="robot0_kinematics_kmodel0_inst">
+						<SIDREF>robot0_kinematics/kmodel0_inst</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_1/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_2/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_3/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_4/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_5/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_6/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa7_1_joint_7/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/iiwa_joint_ee/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value">
+						<float>0.0</float>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0">
+						<SIDREF>robot0_kinematics/kmodel0_inst/world_iiwa_joint/axis0</SIDREF>
+					</newparam>
+					<newparam sid="robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value">
+						<float>0.0</float>
+					</newparam>
+				</instance_kinematics_model>
+				<technique_common>
+					<axis_info sid="axis_info_inst0" axis="kmodel0/iiwa7_1_joint_1/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-168.0</float>
+							</min>
+							<max><float>168.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst1" axis="kmodel0/iiwa7_1_joint_2/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-118.0</float>
+							</min>
+							<max><float>118.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst2" axis="kmodel0/iiwa7_1_joint_3/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-168.0</float>
+							</min>
+							<max><float>168.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst3" axis="kmodel0/iiwa7_1_joint_4/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-118.0</float>
+							</min>
+							<max><float>118.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst4" axis="kmodel0/iiwa7_1_joint_5/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-168.0</float>
+							</min>
+							<max><float>168.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst5" axis="kmodel0/iiwa7_1_joint_6/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-118.0</float>
+							</min>
+							<max><float>118.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst6" axis="kmodel0/iiwa7_1_joint_7/axis0">
+						<active>
+							<bool>true</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>-173.0</float>
+							</min>
+							<max><float>173.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst7" axis="kmodel0/iiwa_joint_ee/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>0.0</float>
+							</min>
+							<max><float>0.0</float>
+							</max>
+						</limits>
+					</axis_info>
+					<axis_info sid="axis_info_inst8" axis="kmodel0/world_iiwa_joint/axis0">
+						<active>
+							<bool>false</bool>
+						</active>
+						<locked>
+							<bool>false</bool>
+						</locked>
+						<limits>
+							<min><float>0.0</float>
+							</min>
+							<max><float>0.0</float>
+							</max>
+						</limits>
+					</axis_info>
+				</technique_common>
+			</kinematics>
+		</articulated_system>
+	</library_articulated_systems>
+	<library_kinematics_scenes id="kscenes">
+		<kinematics_scene id="kscene" name="URDF Kinematics Scene">
+			<instance_articulated_system sid="robot0_motion_inst" url="#robot0_motion" name="iiwa7">
+				<bind symbol="kscene_kmodel0_inst">
+					<param ref="robot0_motion/robot0_motion_kmodel0_inst"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0"/>
+				</bind>
+				<bind symbol="kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value">
+					<param ref="robot0_motion/robot0_motion_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value"/>
+				</bind>
+			</instance_articulated_system>
+		</kinematics_scene>
+	</library_kinematics_scenes>
+	<library_physics_scenes id="pscenes">
+		<physics_scene id="pscene" name="URDF Physics Scene">
+			<instance_physics_model url="#pmodel0" sid="pmodel0_inst" parent="#visual0">
+				<instance_rigid_body body="rigid0" target="#vkmodel0_node0"/>
+				<instance_rigid_body body="rigid1" target="#vkmodel0_node1"/>
+				<instance_rigid_body body="rigid2" target="#vkmodel0_node2"/>
+				<instance_rigid_body body="rigid3" target="#vkmodel0_node3"/>
+				<instance_rigid_body body="rigid4" target="#vkmodel0_node4"/>
+				<instance_rigid_body body="rigid5" target="#vkmodel0_node5"/>
+				<instance_rigid_body body="rigid6" target="#vkmodel0_node6"/>
+				<instance_rigid_body body="rigid7" target="#vkmodel0_node7"/>
+				<instance_rigid_body body="rigid8" target="#vkmodel0_node8"/>
+				<instance_rigid_body body="rigid9" target="#vkmodel0_node9"/>
+			</instance_physics_model>
+			<technique_common>
+				<gravity>0 0 0</gravity>
+			</technique_common>
+		</physics_scene>
+	</library_physics_scenes>
+	<library_physics_models id="pmodels">
+		<physics_model id="pmodel0" name="iiwa7">
+			<rigid_body sid="rigid0" name="iiwa_link_0">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>5</mass>
+					<mass_frame>
+						<translate>-0.1 0.0 0.07</translate>
+						<rotate>1.0 0.0 0.0 0.0</rotate>
+					</mass_frame>
+					<inertia>0.05 0.06 0.03</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid1" name="iiwa_link_1">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>3.4525</mass>
+					<mass_frame>
+						<translate>0.0 -0.03 0.27</translate>
+						<rotate>-1.0 0.0 0.0 15.31732</rotate>
+					</mass_frame>
+					<inertia>0.02183 0.006638374329168403 0.0218946256708316</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid2" name="iiwa_link_2">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>3.4821</mass>
+					<mass_frame>
+						<translate>-0.0003 0.042 0.399</translate>
+						<rotate>0.0 1.0 0.0 165.39443</rotate>
+					</mass_frame>
+					<inertia>0.02170487893575663 0.006845121064243375 0.02179</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid3" name="iiwa_link_3">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>4.05623</mass>
+					<mass_frame>
+						<translate>0.0 0.03 0.68</translate>
+						<rotate>1.0 0.0 0.0 15.51645</rotate>
+					</mass_frame>
+					<inertia>0.03204 0.007991174353439818 0.03214882564656018</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid4" name="iiwa_link_4">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>3.4822</mass>
+					<mass_frame>
+						<translate>0.0 -0.034 0.807</translate>
+						<rotate>1.0 0.0 -0.0 104.60691</rotate>
+					</mass_frame>
+					<inertia>0.02178 0.02169470884653179 0.006840291153468216</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid5" name="iiwa_link_5">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>2.1633</mass>
+					<mass_frame>
+						<translate>-0.0001 -0.021 1.026</translate>
+						<rotate>-0.0 0.24006 -0.97076 180.0</rotate>
+					</mass_frame>
+					<inertia>0.01287 0.003629300218404503 0.0131986997815955</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid6" name="iiwa_link_6">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>2.3466</mass>
+					<mass_frame>
+						<translate>0.0 -0.0603 1.1406</translate>
+						<rotate>0.0 -0.64206 -0.76665 180.0</rotate>
+					</mass_frame>
+					<inertia>0.006509 0.006315854044852164 0.004470145955147836</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid7" name="iiwa_link_7">
+				<technique_common>
+					<dynamic>true</dynamic>
+					<mass>3.129</mass>
+					<mass_frame>
+						<translate>0.0 0.0 1.241</translate>
+						<rotate>0.0 0.0 1.0 44.75772</rotate>
+					</mass_frame>
+					<inertia>0.01405377885694099 0.01523622114305901 0.002872</inertia>
+				</technique_common>
+			</rigid_body>
+			<rigid_body sid="rigid8" name="iiwa_link_ee">
+				<technique_common/>
+			</rigid_body>
+			<rigid_body sid="rigid9" name="world">
+				<technique_common/>
+			</rigid_body>
+		</physics_model>
+	</library_physics_models>
+	<scene>
+		<instance_physics_scene url="#pscene"/>
+		<instance_visual_scene url="#vscene"/>
+		<instance_kinematics_scene url="#kscene">
+			<bind_kinematics_model node="visual0/node9">
+				<param>kscene_kmodel0_inst</param>
+			</bind_kinematics_model>
+			<bind_joint_axis target="node9/node1/node_iiwa7_1_joint_1_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_1_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node2/node_iiwa7_1_joint_2_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_2_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node3/node_iiwa7_1_joint_3_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_3_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node2/node4/node_iiwa7_1_joint_4_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_4_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node2/node3/node5/node_iiwa7_1_joint_5_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_5_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node2/node3/node4/node6/node_iiwa7_1_joint_6_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_6_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node2/node3/node4/node5/node7/node_iiwa7_1_joint_7_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa7_1_joint_7_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node9/node0/node1/node2/node3/node4/node5/node6/node8/node_iiwa_joint_ee_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_iiwa_joint_ee_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+			<bind_joint_axis target="node0/node_world_iiwa_joint_axis0">
+				<axis>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0</param>
+				</axis>
+				<value>
+					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_world_iiwa_joint_axis0_value</param>
+				</value>
+			</bind_joint_axis>
+		</instance_kinematics_scene>
+	</scene>
+	<extra id="sensors" type="library_sensors">
+		<technique profile="OpenRAVE"/>
+	</extra>
+</COLLADA>
