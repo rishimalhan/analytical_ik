@@ -21,13 +21,14 @@ int main(int argc, char** argv)
 	boost::posix_time::time_duration time_diff;
 	start_time = boost::posix_time::microsec_clock::local_time();
 
-	for (int i=0; i<100; i++)
+	// for (int i=0; i<100; i++)
 		smZ_ik::compute_smZ_ik(target,smZ_sol);
 
 	time_diff = boost::posix_time::microsec_clock::local_time() - start_time;
 	elapsed = time_diff.total_nanoseconds() / 1e9;	
 	std::cout<< "compute time: " << elapsed << std::endl;	
-	
+
+	std::cout<< "Number of Solutions Found: " << smZ_sol.size() << std::endl;
 	// for (int i=0; i<smZ_sol.size(); i++)
 	// {
 	// 	std::cout<< smZ_sol[i] << std::endl;

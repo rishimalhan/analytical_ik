@@ -34,8 +34,7 @@ namespace smZ_ik
                     {
                         continue;
                     }
-
-                    smZ_sol.push_back(sol_mat);
+                    smZ_sol.push_back(sol_mat.row(i));
                 }
             }
         }
