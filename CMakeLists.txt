@@ -56,6 +56,7 @@ link_directories(/usr/local/lib/openrave0.9-plugins/)
 
 set(SOURCES_main src/test.cpp)
 set(SOURCES_verify src/verify_ik.cpp)
+set(SOURCES_smZ src/test_smZ.cpp)
 set(SOURCES_convert src/gen_analytical_ik.cpp)
 
 set(DEP_LIB urdf
@@ -85,8 +86,10 @@ set(DEP_LIB urdf
 add_executable (test_ikfast ${SOURCES_main})
 add_executable (gen_analytical_ik ${SOURCES_convert})
 add_executable (verify_ik ${SOURCES_verify})
+add_executable (test_smZ ${SOURCES_smZ})
 
 target_link_libraries(test_ikfast ${DEP_LIB})
 target_link_libraries(gen_analytical_ik ${DEP_LIB})
 target_link_libraries(verify_ik ${DEP_LIB})
+target_link_libraries(test_smZ ${DEP_LIB})
 
