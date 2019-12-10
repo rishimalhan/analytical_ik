@@ -8,6 +8,7 @@ EMAIL: rmalhan@usc.edu */
 
 int main(int argc, char** argv)
 {
+	Eigen::Matrix4d ff_T_tool = Eigen::Matrix4d::Identity(); // tool to flange transform
 	Eigen::Matrix4d target;
 	target<< 1,0,0,1.03,
 			0,1,0,0,
@@ -22,7 +23,7 @@ int main(int argc, char** argv)
 	start_time = boost::posix_time::microsec_clock::local_time();
 
 	// for (int i=0; i<100; i++)
-		smZ_ik::compute_smZ_ik(target,smZ_sol);
+		smZ_ik::compute_smZ_ik(target,ff_T_tool,smZ_sol);
 
 	time_diff = boost::posix_time::microsec_clock::local_time() - start_time;
 	elapsed = time_diff.total_nanoseconds() / 1e9;	
