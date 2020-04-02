@@ -11,14 +11,16 @@ EMAIL: rmalhan@usc.edu */
 #include <Eigen/Eigen>
 
 // include <robot_name.cpp>
-#include <irb2600.cpp>
+// #include <irb2600.cpp>
+// #include <ur5.cpp>
 // #include <gp8.cpp>
-// #include <iiwa7.cpp>
+#include <iiwa7.cpp>
 
 using namespace ikfast;
 
 namespace ik_analytical
 {
+
 	inline Eigen::Matrix4d compute_FK(Eigen::MatrixXd &_joint_config)
 	{
 		IkReal joint_config[GetNumJoints()];

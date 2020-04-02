@@ -3,25 +3,18 @@
 		<contributor>
 			<authoring_tool>URDF Collada Writer</authoring_tool>
 		</contributor>
-		<created>2019-12-06T23:14:47.000000</created>
-		<modified>2019-12-06T23:14:47.000000</modified>
+		<created>2019-12-09T17:17:46.000000</created>
+		<modified>2019-12-09T17:17:46.000000</modified>
 		<unit/>
 		<up_axis>Z_UP</up_axis>
 	</asset>
 	<library_visual_scenes id="vscenes">
 		<visual_scene id="vscene" name="URDF Visual Scene">
-			<node id="visual0" name="abb_irb2600_12_65" sid="visual0">
-				<node id="vkmodel0_node1" name="base_link" sid="node1">
+			<node id="visual0" name="abb_irb2600_12_165" sid="visual0">
+				<node id="vkmodel0_node8" name="world" sid="node8">
 					<translate>0.0 0.0 0.0</translate>
 					<rotate>1.0 0.0 0.0 0.0</rotate>
-					<instance_geometry url="#gkmodel0_base_link_geom0">
-						<bind_material>
-							<technique_common>
-								<instance_material symbol="mat0" target="#gkmodel0_base_link_geom0_mat"/>
-							</technique_common>
-						</bind_material>
-					</instance_geometry>
-					<node id="vkmodel0_node0" name="base" sid="node0">
+					<node id="vkmodel0_node0" name="base_link" sid="node0">
 						<translate>-0.0 -0.0 -0.0</translate>
 						<rotate>1.0 0.0 0.0 0.0</rotate>
 						<translate>0.0 0.0 0.0</translate>
@@ -29,105 +22,112 @@
 						<rotate sid="node_base_link-base_axis0">0.0 0.0 0.0 0.0</rotate>
 						<translate>0.0 0.0 0.0</translate>
 						<rotate>1.0 0.0 0.0 0.0</rotate>
-					</node>
-					<node id="vkmodel0_node2" name="link_1" sid="node2">
-						<translate>-0.0 -0.0 -0.0</translate>
-						<rotate>1.0 0.0 0.0 0.0</rotate>
-						<translate>0.0 0.0 0.445</translate>
-						<rotate>1.0 0.0 0.0 0.0</rotate>
-						<rotate sid="node_joint_1_axis0">0.0 0.0 1.0 0.0</rotate>
-						<translate>0.0 0.0 0.0</translate>
-						<rotate>1.0 0.0 0.0 0.0</rotate>
-						<instance_geometry url="#gkmodel0_link_1_geom0">
+						<instance_geometry url="#gkmodel0_base_link_geom0">
 							<bind_material>
 								<technique_common>
-									<instance_material symbol="mat0" target="#gkmodel0_link_1_geom0_mat"/>
+									<instance_material symbol="mat0" target="#gkmodel0_base_link_geom0_mat"/>
 								</technique_common>
 							</bind_material>
 						</instance_geometry>
-						<node id="vkmodel0_node3" name="link_2" sid="node3">
+						<node id="vkmodel0_node1" name="link_1" sid="node1">
 							<translate>-0.0 -0.0 -0.0</translate>
 							<rotate>1.0 0.0 0.0 0.0</rotate>
-							<translate>0.15 0.0 0.0</translate>
+							<translate>0.0 0.0 0.445</translate>
 							<rotate>1.0 0.0 0.0 0.0</rotate>
-							<rotate sid="node_joint_2_axis0">0.0 1.0 0.0 0.0</rotate>
+							<rotate sid="node_joint_1_axis0">0.0 0.0 1.0 0.0</rotate>
 							<translate>0.0 0.0 0.0</translate>
 							<rotate>1.0 0.0 0.0 0.0</rotate>
-							<instance_geometry url="#gkmodel0_link_2_geom0">
+							<instance_geometry url="#gkmodel0_link_1_geom0">
 								<bind_material>
 									<technique_common>
-										<instance_material symbol="mat0" target="#gkmodel0_link_2_geom0_mat"/>
+										<instance_material symbol="mat0" target="#gkmodel0_link_1_geom0_mat"/>
 									</technique_common>
 								</bind_material>
 							</instance_geometry>
-							<node id="vkmodel0_node4" name="link_3" sid="node4">
+							<node id="vkmodel0_node2" name="link_2" sid="node2">
 								<translate>-0.0 -0.0 -0.0</translate>
 								<rotate>1.0 0.0 0.0 0.0</rotate>
-								<translate>0.0 0.0 0.7</translate>
+								<translate>0.15 0.0 0.0</translate>
 								<rotate>1.0 0.0 0.0 0.0</rotate>
-								<rotate sid="node_joint_3_axis0">0.0 1.0 0.0 0.0</rotate>
+								<rotate sid="node_joint_2_axis0">0.0 1.0 0.0 0.0</rotate>
 								<translate>0.0 0.0 0.0</translate>
 								<rotate>1.0 0.0 0.0 0.0</rotate>
-								<instance_geometry url="#gkmodel0_link_3_geom0">
+								<instance_geometry url="#gkmodel0_link_2_geom0">
 									<bind_material>
 										<technique_common>
-											<instance_material symbol="mat0" target="#gkmodel0_link_3_geom0_mat"/>
+											<instance_material symbol="mat0" target="#gkmodel0_link_2_geom0_mat"/>
 										</technique_common>
 									</bind_material>
 								</instance_geometry>
-								<node id="vkmodel0_node5" name="link_4" sid="node5">
+								<node id="vkmodel0_node3" name="link_3" sid="node3">
 									<translate>-0.0 -0.0 -0.0</translate>
 									<rotate>1.0 0.0 0.0 0.0</rotate>
-									<translate>0.0 0.0 0.115</translate>
+									<translate>0.0 0.0 0.7</translate>
 									<rotate>1.0 0.0 0.0 0.0</rotate>
-									<rotate sid="node_joint_4_axis0">1.0 0.0 0.0 0.0</rotate>
+									<rotate sid="node_joint_3_axis0">0.0 1.0 0.0 0.0</rotate>
 									<translate>0.0 0.0 0.0</translate>
 									<rotate>1.0 0.0 0.0 0.0</rotate>
-									<instance_geometry url="#gkmodel0_link_4_geom0">
+									<instance_geometry url="#gkmodel0_link_3_geom0">
 										<bind_material>
 											<technique_common>
-												<instance_material symbol="mat0" target="#gkmodel0_link_4_geom0_mat"/>
+												<instance_material symbol="mat0" target="#gkmodel0_link_3_geom0_mat"/>
 											</technique_common>
 										</bind_material>
 									</instance_geometry>
-									<node id="vkmodel0_node6" name="link_5" sid="node6">
+									<node id="vkmodel0_node4" name="link_4" sid="node4">
 										<translate>-0.0 -0.0 -0.0</translate>
 										<rotate>1.0 0.0 0.0 0.0</rotate>
-										<translate>0.795 0.0 0.0</translate>
+										<translate>0.0 0.0 0.115</translate>
 										<rotate>1.0 0.0 0.0 0.0</rotate>
-										<rotate sid="node_joint_5_axis0">0.0 1.0 0.0 0.0</rotate>
+										<rotate sid="node_joint_4_axis0">1.0 0.0 0.0 0.0</rotate>
 										<translate>0.0 0.0 0.0</translate>
 										<rotate>1.0 0.0 0.0 0.0</rotate>
-										<instance_geometry url="#gkmodel0_link_5_geom0">
+										<instance_geometry url="#gkmodel0_link_4_geom0">
 											<bind_material>
 												<technique_common>
-													<instance_material symbol="mat0" target="#gkmodel0_link_5_geom0_mat"/>
+													<instance_material symbol="mat0" target="#gkmodel0_link_4_geom0_mat"/>
 												</technique_common>
 											</bind_material>
 										</instance_geometry>
-										<node id="vkmodel0_node7" name="link_6" sid="node7">
+										<node id="vkmodel0_node5" name="link_5" sid="node5">
 											<translate>-0.0 -0.0 -0.0</translate>
 											<rotate>1.0 0.0 0.0 0.0</rotate>
-											<translate>0.085 0.0 0.0</translate>
+											<translate>0.795 0.0 0.0</translate>
 											<rotate>1.0 0.0 0.0 0.0</rotate>
-											<rotate sid="node_joint_6_axis0">1.0 0.0 0.0 0.0</rotate>
+											<rotate sid="node_joint_5_axis0">0.0 1.0 0.0 0.0</rotate>
 											<translate>0.0 0.0 0.0</translate>
 											<rotate>1.0 0.0 0.0 0.0</rotate>
-											<instance_geometry url="#gkmodel0_link_6_geom0">
+											<instance_geometry url="#gkmodel0_link_5_geom0">
 												<bind_material>
 													<technique_common>
-														<instance_material symbol="mat0" target="#gkmodel0_link_6_geom0_mat"/>
+														<instance_material symbol="mat0" target="#gkmodel0_link_5_geom0_mat"/>
 													</technique_common>
 												</bind_material>
 											</instance_geometry>
-											<node id="vkmodel0_node8" name="tool0" sid="node8">
+											<node id="vkmodel0_node6" name="link_6" sid="node6">
 												<translate>-0.0 -0.0 -0.0</translate>
 												<rotate>1.0 0.0 0.0 0.0</rotate>
-												<translate>0.0 0.0 0.0</translate>
-												<rotate>0.0 1.0 0.0 90.0</rotate>
-												<rotate sid="node_joint6-tool0_axis0">0.0 0.0 0.0 0.0</rotate>
+												<translate>0.085 0.0 0.0</translate>
+												<rotate>1.0 0.0 0.0 0.0</rotate>
+												<rotate sid="node_joint_6_axis0">1.0 0.0 0.0 0.0</rotate>
 												<translate>0.0 0.0 0.0</translate>
 												<rotate>1.0 0.0 0.0 0.0</rotate>
+												<instance_geometry url="#gkmodel0_link_6_geom0">
+													<bind_material>
+														<technique_common>
+															<instance_material symbol="mat0" target="#gkmodel0_link_6_geom0_mat"/>
+														</technique_common>
+													</bind_material>
+												</instance_geometry>
+												<node id="vkmodel0_node7" name="tool0" sid="node7">
+													<translate>-0.0 -0.0 -0.0</translate>
+													<rotate>1.0 0.0 0.0 0.0</rotate>
+													<translate>0.0 0.0 0.0</translate>
+													<rotate>0.0 1.0 0.0 90.0</rotate>
+													<rotate sid="node_joint6-tool0_axis0">0.0 0.0 0.0 0.0</rotate>
+													<translate>0.0 0.0 0.0</translate>
+													<rotate>1.0 0.0 0.0 0.0</rotate>
+												</node>
 											</node>
 										</node>
 									</node>
@@ -154,10 +154,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -168,10 +168,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -182,10 +182,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -196,10 +196,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -210,10 +210,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -224,10 +224,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -238,10 +238,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -252,10 +252,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -266,10 +266,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -280,10 +280,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -294,10 +294,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -308,10 +308,10 @@
 				<technique sid="">
 					<phong>
 						<ambient>
-							<color>0.1000000014901161 0.1000000014901161 0.1000000014901161 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</ambient>
 						<diffuse>
-							<color>1 1 1 0</color>
+							<color>0.7372549176216125 0.3490195870399475 0.1607843041419983 1</color>
 						</diffuse>
 					</phong>
 				</technique>
@@ -391,7 +391,7 @@
 		</material>
 	</library_materials>
 	<library_kinematics_models id="kmodels">
-		<kinematics_model id="kmodel0" name="abb_irb2600_12_65">
+		<kinematics_model id="kmodel0" name="abb_irb2600_12_165">
 			<technique_common>
 				<joint name="base_link-base" sid="base_link-base">
 					<revolute sid="axis0">
@@ -465,40 +465,41 @@
 						</limits>
 					</revolute>
 				</joint>
-				<link sid="base_link" name="base_link">
+				<link sid="world" name="world">
 					<attachment_full joint="kmodel0/base_link-base">
 						<translate>0.0 0.0 0.0</translate>
 						<rotate>1.0 0.0 0.0 0.0</rotate>
-						<link sid="base" name="base"/>
-					</attachment_full>
-					<attachment_full joint="kmodel0/joint_1">
-						<translate>0.0 0.0 0.445</translate>
-						<rotate>1.0 0.0 0.0 0.0</rotate>
-						<link sid="link_1" name="link_1">
-							<attachment_full joint="kmodel0/joint_2">
-								<translate>0.15 0.0 0.0</translate>
+						<link sid="base_link" name="base_link">
+							<attachment_full joint="kmodel0/joint_1">
+								<translate>0.0 0.0 0.445</translate>
 								<rotate>1.0 0.0 0.0 0.0</rotate>
-								<link sid="link_2" name="link_2">
-									<attachment_full joint="kmodel0/joint_3">
-										<translate>0.0 0.0 0.7</translate>
+								<link sid="link_1" name="link_1">
+									<attachment_full joint="kmodel0/joint_2">
+										<translate>0.15 0.0 0.0</translate>
 										<rotate>1.0 0.0 0.0 0.0</rotate>
-										<link sid="link_3" name="link_3">
-											<attachment_full joint="kmodel0/joint_4">
-												<translate>0.0 0.0 0.115</translate>
+										<link sid="link_2" name="link_2">
+											<attachment_full joint="kmodel0/joint_3">
+												<translate>0.0 0.0 0.7</translate>
 												<rotate>1.0 0.0 0.0 0.0</rotate>
-												<link sid="link_4" name="link_4">
-													<attachment_full joint="kmodel0/joint_5">
-														<translate>0.795 0.0 0.0</translate>
+												<link sid="link_3" name="link_3">
+													<attachment_full joint="kmodel0/joint_4">
+														<translate>0.0 0.0 0.115</translate>
 														<rotate>1.0 0.0 0.0 0.0</rotate>
-														<link sid="link_5" name="link_5">
-															<attachment_full joint="kmodel0/joint_6">
-																<translate>0.085 0.0 0.0</translate>
+														<link sid="link_4" name="link_4">
+															<attachment_full joint="kmodel0/joint_5">
+																<translate>0.795 0.0 0.0</translate>
 																<rotate>1.0 0.0 0.0 0.0</rotate>
-																<link sid="link_6" name="link_6">
-																	<attachment_full joint="kmodel0/joint6-tool0">
-																		<translate>0.0 0.0 0.0</translate>
-																		<rotate>0.0 1.0 0.0 90.0</rotate>
-																		<link sid="tool0" name="tool0"/>
+																<link sid="link_5" name="link_5">
+																	<attachment_full joint="kmodel0/joint_6">
+																		<translate>0.085 0.0 0.0</translate>
+																		<rotate>1.0 0.0 0.0 0.0</rotate>
+																		<link sid="link_6" name="link_6">
+																			<attachment_full joint="kmodel0/joint6-tool0">
+																				<translate>0.0 0.0 0.0</translate>
+																				<rotate>0.0 1.0 0.0 90.0</rotate>
+																				<link sid="tool0" name="tool0"/>
+																			</attachment_full>
+																		</link>
 																	</attachment_full>
 																</link>
 															</attachment_full>
@@ -800,7 +801,7 @@
 	</library_articulated_systems>
 	<library_kinematics_scenes id="kscenes">
 		<kinematics_scene id="kscene" name="URDF Kinematics Scene">
-			<instance_articulated_system sid="robot0_motion_inst" url="#robot0_motion" name="abb_irb2600_12_65">
+			<instance_articulated_system sid="robot0_motion_inst" url="#robot0_motion" name="abb_irb2600_12_165">
 				<bind symbol="kscene_kmodel0_inst">
 					<param ref="robot0_motion/robot0_motion_kmodel0_inst"/>
 				</bind>
@@ -874,32 +875,32 @@
 		</physics_scene>
 	</library_physics_scenes>
 	<library_physics_models id="pmodels">
-		<physics_model id="pmodel0" name="abb_irb2600_12_65">
-			<rigid_body sid="rigid0" name="base">
+		<physics_model id="pmodel0" name="abb_irb2600_12_165">
+			<rigid_body sid="rigid0" name="base_link">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid1" name="base_link">
+			<rigid_body sid="rigid1" name="link_1">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid2" name="link_1">
+			<rigid_body sid="rigid2" name="link_2">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid3" name="link_2">
+			<rigid_body sid="rigid3" name="link_3">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid4" name="link_3">
+			<rigid_body sid="rigid4" name="link_4">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid5" name="link_4">
+			<rigid_body sid="rigid5" name="link_5">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid6" name="link_5">
+			<rigid_body sid="rigid6" name="link_6">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid7" name="link_6">
+			<rigid_body sid="rigid7" name="tool0">
 				<technique_common/>
 			</rigid_body>
-			<rigid_body sid="rigid8" name="tool0">
+			<rigid_body sid="rigid8" name="world">
 				<technique_common/>
 			</rigid_body>
 		</physics_model>
@@ -908,7 +909,7 @@
 		<instance_physics_scene url="#pscene"/>
 		<instance_visual_scene url="#vscene"/>
 		<instance_kinematics_scene url="#kscene">
-			<bind_kinematics_model node="visual0/node1">
+			<bind_kinematics_model node="visual0/node8">
 				<param>kscene_kmodel0_inst</param>
 			</bind_kinematics_model>
 			<bind_joint_axis target="node0/node_base_link-base_axis0">
@@ -919,7 +920,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_base_link-base_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node4/node5/node6/node8/node_joint6-tool0_axis0">
+			<bind_joint_axis target="node8/node0/node1/node2/node3/node4/node5/node7/node_joint6-tool0_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint6-tool0_axis0</param>
 				</axis>
@@ -927,7 +928,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint6-tool0_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node2/node_joint_1_axis0">
+			<bind_joint_axis target="node8/node1/node_joint_1_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_1_axis0</param>
 				</axis>
@@ -935,7 +936,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_1_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node3/node_joint_2_axis0">
+			<bind_joint_axis target="node8/node0/node2/node_joint_2_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_2_axis0</param>
 				</axis>
@@ -943,7 +944,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_2_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node4/node_joint_3_axis0">
+			<bind_joint_axis target="node8/node0/node1/node3/node_joint_3_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_3_axis0</param>
 				</axis>
@@ -951,7 +952,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_3_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node5/node_joint_4_axis0">
+			<bind_joint_axis target="node8/node0/node1/node2/node4/node_joint_4_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_4_axis0</param>
 				</axis>
@@ -959,7 +960,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_4_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node4/node6/node_joint_5_axis0">
+			<bind_joint_axis target="node8/node0/node1/node2/node3/node5/node_joint_5_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_5_axis0</param>
 				</axis>
@@ -967,7 +968,7 @@
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_5_axis0_value</param>
 				</value>
 			</bind_joint_axis>
-			<bind_joint_axis target="node1/node2/node3/node4/node5/node7/node_joint_6_axis0">
+			<bind_joint_axis target="node8/node0/node1/node2/node3/node4/node6/node_joint_6_axis0">
 				<axis>
 					<param>kscene_kmodel0_inst_robot0_kinematics_kmodel0_inst_joint_6_axis0</param>
 				</axis>

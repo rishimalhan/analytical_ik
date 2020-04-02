@@ -9,11 +9,16 @@ EMAIL: rmalhan@usc.edu */
 int main(int argc, char** argv)
 {
 	Eigen::Matrix4d ff_T_tool = Eigen::Matrix4d::Identity(); // tool to flange transform
+	ff_T_tool << 0,0.7029,0.7113,0.0255843,
+                   0,-0.7113,0.7029,0.0258896,
+                   1,0,0,0.2511166,
+                   0,0,0,1 ;
+
 	Eigen::Matrix4d target;
-	target<< 1,0,0,1.03,
-			0,1,0,0,
-			0,0,1,1.26,
-			0,0,0,1;
+	target<< 0.0546203,   -0.010611,   -0.998451,     1.09245,
+		         -0,    0.999887,  -0.0106274,    0.333887,
+				   0.998451, 0.000580473,   0.0546203,     0.44867,
+		          0,           0,           0,           1;
 
 	std::vector<Eigen::MatrixXd> smZ_sol;
 
@@ -22,7 +27,7 @@ int main(int argc, char** argv)
 	boost::posix_time::time_duration time_diff;
 	start_time = boost::posix_time::microsec_clock::local_time();
 
-	// for (int i=0; i<100; i++)
+	// for (int i=0; i<100; ++i)
 		smZ_ik::compute_smZ_ik(target,ff_T_tool,smZ_sol);
 
 	time_diff = boost::posix_time::microsec_clock::local_time() - start_time;
